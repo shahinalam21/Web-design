@@ -1,0 +1,290 @@
+/* for 1200px large device */
+
+@media only screen and (max-width: 1200px) {
+    #footer-section {
+        height: 60vh;
+    }
+    .navbar-container {
+        justify-content: space-evenly;
+    }
+    .navbar-col-1 {
+        margin-left: 10px;
+    }
+    .navbar-col-2 {
+        margin-right: 10px;
+    }
+    .nav-logo img {
+        width: 154px;
+        height: 38px;
+    }
+    .nav-logo img {
+        margin-top: 9px;
+        width: 120px;
+        height: 28px;
+    }
+}
+
+/* for 992px laptop or desktop */
+
+@media only screen and (max-width: 992px) {
+    /* navbar section start */
+    .nav-logo{
+        margin-left: 0px;
+    }
+    .nav-logo img {
+        margin-top: 14px;
+        width: 120px;
+        height: 20px;
+    }
+    .navbar-nav-ul li {
+        padding: 10px 11px;
+    }
+    i.fas.fa-flag-usa {
+        font-size: 15px;
+    }
+    /* navbar section end */
+
+    .card {
+        left: 106%;
+    }
+    .buisness-btn {
+        padding-top: 50px;
+    }
+    .buy-top-1 {
+        height: 40vh;
+    }
+    .buy-top-2 {
+        height: 40vh;
+    }
+    .buy-top-3 {
+        height: 40vh;
+    }
+    #contact-section {
+        height: auto;
+    }
+    #footer-section {
+        height: 100vh;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* navigation start */
+    .navbar{
+        background: none;
+    }
+    .navbar-nav {
+        display: none;
+        text-align: left;
+        width: 100%;
+    }
+   .navbar-container {
+    justify-content: start;
+    display: flex;
+    flex-direction: column;
+}
+.navbar-col-2 {
+    margin-right: 10px;
+    display: flex;
+}
+    .menu{
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 30px;
+    }
+    .navbar-nav-ul {
+        flex-direction: column;
+    }
+    .navbar-nav-ul li{
+        flex-direction: column;
+        border-bottom: 1px solid gainsboro;
+        
+    }
+    .navbar-nav-ul li:hover{
+        flex-direction: column;
+        background: #be9b9b5e;
+}
+
+    }
+    /* navigation end */
+    .hero-section {
+        height: 600px;
+    }
+    #top_section {
+        display: none;
+    }
+    .card {
+        display: none;
+    }
+    .buy {
+        height: auto;
+    }
+    .buy-row {
+        flex-direction: column;
+    }
+    .buy-row-1 {
+        width: 100%;
+    }
+    .buy-row-2 {
+        width: 100%;
+    }
+    .buy-row-3 {
+        width: 100%;
+    }
+    .full-buy-card {
+        margin: 20px 0px;
+        height: auto;
+    }
+    .buy-btn {
+        padding-bottom: 25px;
+    }
+
+    /*  */
+    .account-col-2 {
+        flex-direction: column;
+    }
+    .account-row-1 {
+        width: auto;
+        padding-top: 20px;
+    }
+
+    .account-row-2 {
+        width: auto;
+        padding-top: 20px;
+    }
+
+    .account-row-3 {
+        width: auto;
+        padding-top: 20px;
+    }
+    .icon span i {
+        margin-left: 0px;
+    }
+    .contact-col-2 {
+        flex-direction: column;
+    }
+    .contact-row-1 {
+        width: auto;
+    }
+    .contact-row-2 {
+        width: auto;
+    }
+    .contact-row-3 {
+        width: auto;
+    }
+    .form-col-1 {
+        flex-direction: column;
+    }
+    .form-col-2 {
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    .form-col-3 {
+        margin-top: 0px;
+        width: auto;
+        margin: 0px auto;
+    }
+    .form-col-1 input {
+        width: auto;
+        margin-bottom: 20px;
+    }
+    .form-col-2 input {
+        width: auto;
+        margin-bottom: 20px;
+    }
+    .submit-btn {
+        padding-bottom: 20px;
+    }
+    /*  */
+    #footer-section {
+        height: auto;
+    }
+    .footer-row {
+        flex-direction: column;
+    }
+    .col-1 {
+        width: 80%;
+        margin: auto;
+    }
+    .col-2 {
+        width: 80%;
+        margin: auto;
+    }
+    .col-3 {
+        width: 80%;
+        margin: auto;
+    }
+    .col-4 {
+        width: 80%;
+        margin: auto;
+    }
+    .footer-logo {
+        text-align: center;
+    }
+    .footer-logo img {
+        text-align: center;
+    }
+    .footer-logo img {
+        width: 138px;
+        height: 36px;
+    }
+    .discription {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .col-2 h3 {
+        text-align: center;
+    }
+    .col-3 h3 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .col-4 h3 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .nav ul {
+        text-align: center;
+        list-style: none;
+    }
+    .nav {
+        margin-bottom: 20px;
+    }
+    .icon-list-1 {
+        text-align: center;
+    }
+    .icon-list-2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .col-4 p {
+        text-align: center;
+    }
+    .col-4 a {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .footer-end {
+        padding: 10px;
+    }
+    .copy-col-1 span {
+        color: #fff;
+        font-size: 14px;
+    }
+    .copy-col-2 ul li a {
+        color: #fff;
+        font-size: 14px;
+    }
+    .left-btn {
+        margin-right: 45px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .hero-section {
+        height: 600px;
+    }
+    .left-btn {
+        margin-right: 45px;
+    }
+}
